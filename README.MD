@@ -12,9 +12,7 @@ and password.
 ```
 
 #### Logout of a Salesforce org
-```JavaScript
-  await LightningSelenium.logout(driver);
-```
+Coming soon...
 
 #### Create a Scratch Org and Login
 ```JavaScript
