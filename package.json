@@ -1,0 +1,34 @@
+{
+  "name": "lightning-selenium",
+  "version": "1.0.0",
+  "description": "Webdriver E2E test wrapper for SalesForce.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edodso2/lightning-selenium.git"
+  },
+  "keywords": [
+    "SalesForce",
+    "Selenium",
+    "Lightning",
+    "Experience",
+    "SFDX"
+  ],
+  "author": "Eric Dodson",
+  "devDependencies": {
+    "chromedriver": "^74.0.0",
+    "public-ip": "^3.1.0",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edodso2/lightning-selenium/issues"
+  },
+  "homepage": "https://github.com/edodso2/lightning-selenium#readme"
+}
