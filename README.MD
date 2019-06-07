@@ -4,19 +4,19 @@ Lightning Selenium is an E2E testing library that makes writing Selenium WebDriv
 
 ## Features
 
-**Login to a Salesforce org**
+#### Login to a Salesforce org
 Login in to any Salesforce org by passing the Selenium Webdriver instance along with a valid username
 and password.
 ```JavaScript
   await LightningSelenium.login(driver, username, password);
 ```
 
-**Logout of a Salesforce org**
+#### Logout of a Salesforce org
 ```JavaScript
   await LightningSelenium.logout(driver);
 ```
 
-**Create a Scratch Org and Login**
+#### Create a Scratch Org and Login
 ```JavaScript
   // Generate a scratch org for testing
   const scratchOrg = new ScratchOrg();
@@ -31,7 +31,7 @@ and password.
   await LightningSelenium.login(driver, scratchOrg.username, scratchOrg.password);
 ```
 
-**Delete a Scratch Org**
+#### Delete a Scratch Org
 ```JavaScript
   await scratchOrg.delete();
 ```
